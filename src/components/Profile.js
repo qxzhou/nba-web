@@ -8,9 +8,9 @@ export class Profile extends React.Component {
             teamCity,
             teamName,
             playerName,
+            playerId,
             height,
             weight,
-            playerId,
             pts, reb, ast, pie,
         } = this.props.playerInfo;
         return (
@@ -58,3 +58,4 @@ export class Profile extends React.Component {
         );
     }
 }
+
